@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\abissane\\Desktop\\EnglishApp\\English App\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0138514A-2825-480D-B144-41D24E059589}|English App\\English App.csproj|c:\\users\\abissane\\desktop\\englishapp\\english app\\english app\\pregunta1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0138514A-2825-480D-B144-41D24E059589}|English App\\English App.csproj|solutionrelative:english app\\pregunta1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "pregunta1.xaml",
+              "DocumentMoniker": "C:\\Users\\abissane\\Desktop\\EnglishApp\\English App\\English App\\pregunta1.xaml",
+              "RelativeDocumentMoniker": "English App\\pregunta1.xaml",
+              "ToolTip": "C:\\Users\\abissane\\Desktop\\EnglishApp\\English App\\English App\\pregunta1.xaml",
+              "RelativeToolTip": "English App\\pregunta1.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-04T18:40:17.152Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

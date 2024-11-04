@@ -1,0 +1,31 @@
+﻿<Page x:Class="English_App.HomePage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Title="HomePage">
+    <Grid Background="#F5F5F5">
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+          
+            <TextBlock 
+                       FontSize="24" 
+                       FontWeight="Bold" 
+                       Foreground="#333" 
+                       HorizontalAlignment="Center" 
+                       Margin="0,30,0,0" ><Run Text="Bienvenido al "/><Run Language="fr-fr" Text="Test "/><Run Text="del inglés"/></TextBlock>
+
+            
+            <Button Content="Empezar" 
+                    Width="200" 
+                    Height="50" 
+                    FontSize="18" 
+                    FontWeight="Bold" 
+                    Foreground="White" 
+                    Background="#007ACC" 
+                    Cursor="Hand"
+                    BorderThickness="0" 
+                    Margin="0,20,0,0"
+                    Click="StartTestButton_Click"/>
+
+          
+        </StackPanel>
+    </Grid>
+</Page>
