@@ -50,3 +50,33 @@ C:\Users\abissane\Desktop\EnglishApp\English App\English App\obj\Debug\English A
 C:\Users\abissane\Desktop\EnglishApp\English App\English App\obj\Debug\English App.csproj.CoreCompileInputs.cache
 C:\Users\abissane\Desktop\EnglishApp\English App\English App\obj\Debug\English App.exe
 C:\Users\abissane\Desktop\EnglishApp\English App\English App\obj\Debug\English App.pdb
+C:\Users\abissane\Desktop\EnglishApp\English App\bin\Debug\English App.exe.config
+C:\Users\abissane\Desktop\EnglishApp\English App\bin\Debug\English App.exe
+C:\Users\abissane\Desktop\EnglishApp\English App\bin\Debug\English App.pdb
+C:\Users\abissane\Desktop\EnglishApp\English App\obj\Debug\English App.csproj.AssemblyReference.cache
+C:\Users\abissane\Desktop\EnglishApp\English App\obj\Debug\HomePage.baml
+C:\Users\abissane\Desktop\EnglishApp\English App\obj\Debug\MainWindow.baml
+C:\Users\abissane\Desktop\EnglishApp\English App\obj\Debug\pregunta1.baml
+C:\Users\abissane\Desktop\EnglishApp\English App\obj\Debug\pregunta2.baml
+C:\Users\abissane\Desktop\EnglishApp\English App\obj\Debug\pregunta3.baml
+C:\Users\abissane\Desktop\EnglishApp\English App\obj\Debug\pregunta4.baml
+C:\Users\abissane\Desktop\EnglishApp\English App\obj\Debug\pregunta5.baml
+C:\Users\abissane\Desktop\EnglishApp\English App\obj\Debug\HomePage.g.cs
+C:\Users\abissane\Desktop\EnglishApp\English App\obj\Debug\MainWindow.g.cs
+C:\Users\abissane\Desktop\EnglishApp\English App\obj\Debug\pregunta1.g.cs
+C:\Users\abissane\Desktop\EnglishApp\English App\obj\Debug\pregunta2.g.cs
+C:\Users\abissane\Desktop\EnglishApp\English App\obj\Debug\pregunta3.g.cs
+C:\Users\abissane\Desktop\EnglishApp\English App\obj\Debug\pregunta4.g.cs
+C:\Users\abissane\Desktop\EnglishApp\English App\obj\Debug\pregunta5.g.cs
+C:\Users\abissane\Desktop\EnglishApp\English App\obj\Debug\App.g.cs
+C:\Users\abissane\Desktop\EnglishApp\English App\obj\Debug\English App_MarkupCompile.cache
+C:\Users\abissane\Desktop\EnglishApp\English App\obj\Debug\English App.g.resources
+C:\Users\abissane\Desktop\EnglishApp\English App\obj\Debug\English_App.Properties.Resources.resources
+C:\Users\abissane\Desktop\EnglishApp\English App\obj\Debug\English App.csproj.GenerateResource.cache
+C:\Users\abissane\Desktop\EnglishApp\English App\obj\Debug\English App.csproj.CoreCompileInputs.cache
+C:\Users\abissane\Desktop\EnglishApp\English App\obj\Debug\English App.exe
+C:\Users\abissane\Desktop\EnglishApp\English App\obj\Debug\English App.pdb
+C:\Users\abissane\Desktop\EnglishApp\English App\obj\Debug\pregunta6.baml
+C:\Users\abissane\Desktop\EnglishApp\English App\obj\Debug\pregunta6.g.cs
+C:\Users\abissane\Desktop\EnglishApp\English App\obj\Debug\pregunta7.baml
+C:\Users\abissane\Desktop\EnglishApp\English App\obj\Debug\pregunta7.g.cs

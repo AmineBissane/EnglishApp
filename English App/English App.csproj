@@ -94,6 +94,14 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="pregunta6.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="pregunta7.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="pregunta1.xaml.cs">
@@ -110,6 +118,12 @@
     </Compile>
     <Compile Include="pregunta5.xaml.cs">
       <DependentUpon>pregunta5.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="pregunta6.xaml.cs">
+      <DependentUpon>pregunta6.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="pregunta7.xaml.cs">
+      <DependentUpon>pregunta7.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
@@ -135,6 +149,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imgs\334289821-Baltimore_Oriole-Matthew_Plante.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imgs\banan.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

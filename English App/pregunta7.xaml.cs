@@ -16,14 +16,13 @@ using System.Windows.Threading;
 
 namespace English_App
 {
-
-    public partial class pregunta5 : Page
+    public partial class pregunta7 : Page
     {
         private DispatcherTimer timer;
-        private int secondsRemaining = 20;
+        private int secondsRemaining = 10;
         private int score;
 
-        public pregunta5(int currentScore)
+        public pregunta7(int currentScore)
         {
             InitializeComponent();
             score = currentScore;
@@ -41,30 +40,30 @@ namespace English_App
         private void Timer_Tick(object sender, EventArgs e)
         {
             secondsRemaining--;
-            TimerText.Text = $"Tiempo restante: {secondsRemaining} segundos";
-            TimerProgressBar.Value = 20 - secondsRemaining;
+            TimerText.Text = $"Time Remaining: {secondsRemaining} seconds";
+            TimerProgressBar.Value = 10 - secondsRemaining;
 
             if (secondsRemaining <= 0)
             {
                 timer.Stop();
-                CheckAnswerAndNavigate();
+                NavigateToNextPage();
             }
         }
 
-        private void SendButton_Click(object sender, RoutedEventArgs e)
+        private void SubmitButton_Click(object sender, RoutedEventArgs e)
         {
             timer.Stop();
-            CheckAnswerAndNavigate();
-        }
-
-        private void CheckAnswerAndNavigate()
-        {
-            if (Option1.IsChecked == true)
+            if (YellowRadioButton.IsChecked == true) 
             {
-                score++;
+                score++; 
             }
 
-            NavigationService?.Navigate(new pregunta6(score));
+            NavigateToNextPage();
+        }
+
+        private void NavigateToNextPage()
+        {
+            NavigationService?.Navigate(new pregunta6(score)); 
         }
     }
 }

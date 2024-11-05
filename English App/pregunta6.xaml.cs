@@ -16,18 +16,24 @@ using System.Windows.Threading;
 
 namespace English_App
 {
-
-    public partial class pregunta5 : Page
+    /// <summary>
+    /// Lógica de interacción para pregunta6.xaml
+    /// </summary>
+    public partial class pregunta6 : Page
     {
         private DispatcherTimer timer;
-        private int secondsRemaining = 20;
+        private int secondsRemaining = 10;
         private int score;
 
-        public pregunta5(int currentScore)
+        public pregunta6(int currentScore)
         {
             InitializeComponent();
             score = currentScore;
             StartTimer();
+            QuestionImage.Source = new BitmapImage(new Uri("imgs/334289821-Baltimore_Oriole-Matthew_Plante.jpg", UriKind.Relative));
+            Option1.Content = "A cat";
+            Option2.Content = "A dog";
+            Option3.Content = "A bird";
         }
 
         private void StartTimer()
@@ -42,29 +48,30 @@ namespace English_App
         {
             secondsRemaining--;
             TimerText.Text = $"Tiempo restante: {secondsRemaining} segundos";
-            TimerProgressBar.Value = 20 - secondsRemaining;
+            TimerProgressBar.Value = 10 - secondsRemaining;
 
             if (secondsRemaining <= 0)
             {
                 timer.Stop();
-                CheckAnswerAndNavigate();
+                NavigateToNextPage();
             }
         }
 
-        private void SendButton_Click(object sender, RoutedEventArgs e)
+        private void AnswerButton_Click(object sender, RoutedEventArgs e)
         {
             timer.Stop();
-            CheckAnswerAndNavigate();
-        }
 
-        private void CheckAnswerAndNavigate()
-        {
-            if (Option1.IsChecked == true)
+            if (sender is Button selectedButton && selectedButton.Content.ToString() == "A bird")
             {
-                score++;
+                score++; 
             }
 
-            NavigationService?.Navigate(new pregunta6(score));
+            NavigateToNextPage();
+        }
+
+        private void NavigateToNextPage()
+        {
+            NavigationService?.Navigate(new pregunta7(score));
         }
     }
 }
