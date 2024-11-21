@@ -12,7 +12,7 @@
         <StackPanel VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,90,0,0">
             <TextBlock 
                        FontSize="16" 
-                       ><Run Text="Seleccione el número: (Select the number:)"/><LineBreak/><Run/></TextBlock>
+                       ><Run Text="Seleccionee el número: (Select the number:)"/><LineBreak/><Run/></TextBlock>
             <Slider x:Name="AnswerSlider" Minimum="1" Maximum="10" Width="200" TickFrequency="1" IsSnapToTickEnabled="True" />
             <TextBlock x:Name="SelectedValueText" 
                        FontSize="16" 
